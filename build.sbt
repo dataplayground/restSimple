@@ -1,5 +1,4 @@
 
-
 name := """restapi"""
 
 version := "1.0.2"
@@ -8,6 +7,8 @@ scalaVersion := "2.11.6"
 crossScalaVersions := Seq("2.10.5", "2.11.6")
 
 resolvers += "Scalaz Bintray Repo" at "https://dl.bintray.com/scalaz/releases"
+
+enablePlugins(UniversalPlugin)
 
 libraryDependencies ++= {
 
